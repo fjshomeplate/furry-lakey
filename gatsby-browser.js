@@ -1,4 +1,6 @@
-/* eslint-disable */
+// GOOD: CommonJS syntax works
+require(`./src/styles/global.css`)
+module.exports = `./src/styles/global.css`
 /**
  * Trust All Scripts
  *

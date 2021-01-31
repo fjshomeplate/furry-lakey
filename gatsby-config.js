@@ -48,6 +48,12 @@ module.exports = {
                 name: `pages`,
             },
         },
+        {
+            resolve: `gatsby-plugin-postcss`,
+            options: {
+                postCssPlugins: [require(`tailwindcss`)],
+            },
+        },
         // Setup for optimised images.
         // See https://www.gatsbyjs.org/packages/gatsby-image/
         {
